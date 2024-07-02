@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+}
+.content-box {
+  background-color: #fff;
+  padding: 2rem;
+}
+input,
+button {
+  padding: 0.8rem;
+  outline: none;
+}
+.content-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  background-color: rgb(65, 117, 239);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  scale: 1.1;
+}
